@@ -1,5 +1,8 @@
 {
-    "name": "test-component-library",
+    "name": "@RahulMj21/test-component-library",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/RahulMj21"
+    },
     "version": "1.0.0",
     "description": "test component library",
     "scripts": {
