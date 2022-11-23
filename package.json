@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/RahulMj21"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "test component library",
     "scripts": {
         "rollup": "rollup -c",
@@ -52,5 +52,8 @@
     "files": [
         "dist"
     ],
-    "types": "dist/index.d.ts"
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "postcss": "^8.4.19"
+    }
 }

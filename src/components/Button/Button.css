@@ -1,0 +1,13 @@
+button {
+    font-size: 20px;
+    background: #008073;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+}
+button:active {
+    transform: scale(0.98);
+}
